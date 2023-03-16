@@ -9,9 +9,9 @@ namespace ProjectManagementApp.BusinessLogic
 {
     public class BusinessLogic
     {
-        //public ISession GetSessionBl()
-        //{
-        //    //return new SessionBL();
-        //}
+        public ISession GetSessionBl()
+        {
+            return new SessionBL();
+        }
     }
 }

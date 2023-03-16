@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectManagementApp.BusinessLogic.Core
 {
-    internal class UserApi
+    public class UserApi
     {
     }
 }
