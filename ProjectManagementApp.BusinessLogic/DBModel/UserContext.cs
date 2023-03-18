@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace ProjectManagementApp.BusinessLogic.DBModel
     {
         public UserContext() :
                 base("name=ProjectManagementApp")
-            { }
-        public virtual DbSet<UDbTable> Users { get; set; }
+        { }
+        //public virtual DbSet<UDbTable> Users { get; set; }
     }
 }
