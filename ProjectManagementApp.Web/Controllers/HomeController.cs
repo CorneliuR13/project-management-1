@@ -14,8 +14,8 @@ namespace ProjectManagementApp.Web.Controllers
         {
             UserData u = new UserData();
             u.Username = "admin";
-            u.Tasks = new List<string> { "Task1", "Task2" };
-            u.Projects = new List<string> { "Project 1", "Project 2" };
+            u.Tasks = new List<string> { "Task1", "Task2" , "Task3", "Task4", "Task5"};
+            u.Projects = new List<string> { "Project 1", "Project 2", "Project3", "Project4", "Project5" };
 
 
             return View(u);
@@ -24,8 +24,9 @@ namespace ProjectManagementApp.Web.Controllers
         {
             UserData u = new UserData();
             u.Username = "admin";
-            u.Tasks = new List<string> { "Task1", "Task2" };
-            u.Projects = new List<string> { "Project 1", "Project 2" };
+
+            u.Tasks = new List<string> { "Task1", "Task2", "Task3", "Task4", "Task5" };
+            u.Projects = new List<string> { "Project 1", "Project 2", "Project3", "Project4", "Project5" };
 
 
             return View(u);
@@ -34,8 +35,9 @@ namespace ProjectManagementApp.Web.Controllers
         {
             UserData u = new UserData();
             u.Username = "admin";
-            u.Projects = new List<string> { "Project 1", "Project 2" };
-            u.Tasks = new List<string> { "Task1", "Task2" };
+
+            u.Tasks = new List<string> { "Task1", "Task2", "Task3", "Task4", "Task5" };
+            u.Projects = new List<string> { "Project 1", "Project 2", "Project3", "Project4", "Project5" };
 
 
             return View(u);
