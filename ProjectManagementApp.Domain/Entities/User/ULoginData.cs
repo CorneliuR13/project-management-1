@@ -18,7 +18,7 @@ namespace ProjectManagementApp.Domain.Entities.User
     class UDbTable
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identify)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identify)]
         
         public int Id { get; set; }
 
@@ -45,15 +45,15 @@ namespace ProjectManagementApp.Domain.Entities.User
 
         public URole Level { get; set; }
 
-        class UserContext :DbContext
-        {
-            public UserContext() :
-                base("name= eUseControl")
-            {
+        //class UserContext :DbContext
+        //{
+        //    public UserContext() :
+        //        base("name= eUseControl")
+        //    {
 
-            }
-            public virtual DbSet<UDbTable> Users { get; set; }
-        }
+        //    }
+        //    public virtual DbSet<UDbTable> Users { get; set; }
+        //}
 
     }
 }
