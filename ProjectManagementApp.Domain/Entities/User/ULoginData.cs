@@ -15,7 +15,7 @@ namespace ProjectManagementApp.Domain.Entities.User
         public string LoginIp { get; set; }
         public DateTime LoginDateTime { get; set; }
     }
-    class UDbTale
+    class UDbTable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identify)]
